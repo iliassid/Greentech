@@ -1,0 +1,142 @@
+*{
+    text-decoration:none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(244, 244, 244);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(45, 204, 112);
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    justify-content: space-between;
+    list-style-type: none;
+}
+a{
+    color: rgb(245, 243, 243);
+    text-decoration: none;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+li{
+    text-decoration: none;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:left;
+    padding-top: 100px;
+    padding-left: 15%;
+    font-size: 60px;
+    font-weight: 1000;
+    color: aliceblue;
+}
+.divtwo{
+    background-color: rgb(33, 31, 31);
+    height: 300px;
+}
+.decoration{
+    
+    float: right;
+    margin-right: 30px;
+}
+.first{
+    display: block;
+    min-width: 100px;
+    width: 15%;
+    background-color: rgb(186, 203, 140);
+    padding: 30px;
+    height: 100%;
+    box-shadow:10px 10px 10px 10px rgb(102, 102, 102);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.first:hover{
+    width: 18%;
+    background-color: rgb(149, 168, 98);
+}
+.second{
+    display: block;
+    min-width: 100px;
+    width: 15%;
+    background-color: rgb(236, 138, 150);
+    padding: 30px;
+    height: 100%;
+    box-shadow:10px 10px 10px 10px rgb(102, 102, 102);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.second:hover{
+    width: 18%;
+    background-color: rgb(172, 103, 111);
+}
+.three{
+    display: block;
+    min-width: 100px;
+    width: 15%;
+    background-color: rgb(51, 42, 154);
+    padding: 30px;
+    height: 100%;
+    color: aliceblue;
+    box-shadow:10px 10px 10px 10px rgb(102, 102, 102);
+    border-radius: 10px;
+    transition:0.3s;
+
+}
+.three:hover{
+    width: 18%;
+    background-color: rgb(24, 20, 73);
+}
+.foor{
+    display: block;
+    min-width: 100px;
+    width: 15%;
+    background-color: rgb(125, 203, 209);
+    padding: 30px;
+    height: 100%;
+    box-shadow:10px 10px 10px 10px rgb(102, 102, 102);
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+.foor:hover{
+    width: 18%;
+    background-color: rgb(70, 118, 122);
+}
+.elementimg{
+    width: 90%;
+    justify-content: center;
+}
+.newdiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 150px;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+footer{
+    display: flex;
+    background-color: rgb(45, 204, 112);
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
