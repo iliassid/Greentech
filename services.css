@@ -53,13 +53,17 @@ h1{
     color: aliceblue;
 }
 .divtwo{
-    background-color: rgb(33, 31, 31);
-    height: 300px;
+    background-image: url(/imgs/cover.jpg);
+    height: 500px;
+    width: 100%;
+
 }
 .decoration{
     
     float: right;
     margin-right: 30px;
+    margin-top: 150px;
+    max-width: 100%;
 }
 .first{
     display: block;
@@ -148,4 +152,9 @@ footer{
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+.thisoneul{
+    display: flex;
+    flex-direction: column;
+    
 }
