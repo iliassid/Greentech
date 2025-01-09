@@ -20,9 +20,18 @@ nav{
 ul{
     display: flex;
     justify-content: center;
-    width: 40%;
+    width: 50%;
     justify-content: space-between;
     list-style-type: none;
+}
+.hoverul{
+    transition: 0.3s;
+
+}
+.hoverul:hover{
+    color: rgb(17, 90, 13);
+    font-size: large;
+    
 }
 a{
     color: rgb(245, 243, 243);
