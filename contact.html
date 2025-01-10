@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+  </head>
+  <body>
+    <header class="navbar">
+      <h3 >GreenTech Innovators</h3>
+      <ul>
+          <li><a href="#" >Acceuil</a></li>
+          <li><a href="#" >Nos Service</a></li>
+          <li><a href="#" >À propos de nous</a></li>
+          <li><a href="#" >FAQ</a></li>
+          <li><a href="#" >Contactez-nous</a></li>
+      </ul>
+  </header>
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Contact information</h3>
+          <p class="text">
+            si vous avez des questions ou des remarques envoyez-nous un message
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="Capture d'écran 2025-01-07 095925.png" class="icon" alt="" />
+              <p>beni mellal</p>
+            </div>
+            <div class="information">
+              <img src="Capture d'écran 2025-01-07 094128.png" class="icon" alt="" />
+              <p>green@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="Capture d'écran 2025-01-07 100641.png" class="icon" alt="" />
+              <p>+212 7777777</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Contactez-nous :</p>
+            <div class="social-icons">
+               <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form id="validationForm"  autocomplete="off">
+            <h3 class="title">Contactez-nous</h3>
+            <div class="input-container">
+              <input type="text" name="name" id="username" class="input" required />
+              <label for="">Nom</label>
+              <span>Nom</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" id="email" class="input" required />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="sujet" id="subject" class="input" required/>
+              <label for="">Sujet</label>
+              <span>Sujet</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="Message" id="Messege" class="input" required></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit"   id="sub" class="btn" /></input>
+            <div id="formMessage" class="form-message"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2025 GreenTech Innovators. Tous droits réservés. <a href="#mentions">Mentions légales</a></p>
+  </footer>
+    <script src="contact.js"></script>
+  </body>
+</html>
