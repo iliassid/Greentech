@@ -10,29 +10,41 @@ body {
     line-height: 1.6;
 }
 
-.header {
-    background-color: #33a853;
-    padding: 15px;
+li{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.hoverul{
+    transition: 0.3s;
+
+}
+.hoverul:hover{
+    color: rgb(17, 90, 13);
+    font-size: large;
+
+}
+a{
+    color: rgb(245, 243, 243);
+    text-decoration: none;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    background-color: rgb(45, 204, 112);
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
 
-.header .logo {
-    color: #fff;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.header .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-}
-
-.header .nav-links li a {
-    color: #fff;
-    text-decoration: none;
 }
 
 .about {
@@ -71,5 +83,6 @@ footer {
     padding: 15px;
     background-color: #33a853;
     color: white;
+    margin-top: 50px;
     
 }
