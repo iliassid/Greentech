@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(244, 244, 244);
+}
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    justify-content: space-between;
+    background: #33a853;
+    padding-left: 0%;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 40px;
+    margin-right: 40px;
+    list-style-type: none;
+    color: rgb(250, 249, 249);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    
+}
+a{
+    color: white;
+    transition: 0.3s;
+}
+a:hover{
+    color: rgb(17,90,13);
+    font-size: large;
+}
+.logo{
+    color: rgb(250, 249, 249);
+}
+h3{
+    color: rgb(250, 249, 249);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div{
+    background-color: rgb(75, 71, 71);
+    height: 300px;
+    text-align: center;
+}
+.titre{
+    color: rgb(250, 249, 249);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top:80px;
+    margin-bottom: 30px;
+}
+.par{
+color: rgb(250, 249, 249);
+text-align: center;
+font-size: 15px;
+}
+.button1{
+    background-color: #33a853;
+    border-radius: 40px;
+    height: 40px;
+    width: 200px;
+    margin-top: 3%;
+}
+.p1{
+    color: aliceblue;
+    height: 20px;
+    width: 200px;
+    margin: 4px;
+    
+}
+.titre2{
+    color: #33a853;
+    text-align: center;
+    margin-top: 2%;
+
+}
+.principale{
+    background-color:rgb(244,244,244);
+    display: flex;
+    justify-content:space-around;
+    margin-top: 6%;   
+     
+}
+.img1{
+    width: 220px;
+    border-radius: 50px;
+    height: 120px;
+    display: flex;
+    margin-top: 5%;
+    flex-wrap: nowrap;
+    
+}
+
+.pb1{
+    width: 20%;
+    height: 220px;
+    background-color: rgb(255,255,255);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+align-items: center;  
+  background-color:rgb(236,240,241) ;
+    height: 300px;
+    padding: 50px;
+    justify-content: space-around;
+}
+.contact{
+    color: #33a853;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+}
+.pbut{
+
+    color: aliceblue;
+}
+
+footer{
+    background-color: #33a853;
+    color: white;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+   align-items: center;
+}
